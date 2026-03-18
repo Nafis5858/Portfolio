@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "name": "Nafis Kamal Zisan",
+    "subtitle": "AI Researcher • Problem Solver • Full-Stack Developer • Video Editor • Python Expert",
+    "tagline": "I build modern web experiences that help people and businesses thrive.",
+    "photo": "assets/profile image new.png"
+  },
+  "about": "A final-year Computer Science student at BRAC University with a passion for bridging the gap between hardware and intelligent software. From developing drone-based crop disease detection systems to building seamless web platforms like Krishak, I focus on creating efficient, real-world solutions.",
+  "stats": [
+    {
+      "label": "Years of Experience",
+      "value": "3+",
+      "sub": "Coding & Robotics"
+    },
+    {
+      "label": "Major Projects",
+      "value": "6+",
+      "sub": "IoT to Web Ecosystems"
+    },
+    {
+      "label": "Technologies",
+      "value": "25+",
+      "sub": "AI, Web, and Embedded"
+    }
+  ],
+  "thesis": {
+    "title": "An Efficient Hybrid Deep Learning Architecture for Crop Disease and Weed Detection from Drone Images",
+    "description": "Developed a specialized hybrid model optimized for high-accuracy agricultural monitoring using aerial imagery. This project focuses on enhancing food security through automated, early-stage detection of crop threats.",
+    "image": "assets/drone.svg",
+    "highlights": [
+      "Hybrid Architecture: Combines different models for efficiency",
+      "Impact: Precision agriculture and food security"
+    ],
+    "researching": true
+  },
+  "expertise": [
+    {
+      "title": "Machine Learning & AI",
+      "description": "Focusing on Computer Vision & Drone Analytics",
+      "skills": ["PyTorch", "TensorFlow", "OpenCV", "Deep Learning Architectures"]
+    },
+    {
+      "title": "Embedded & Robotics",
+      "description": "Hardware-Software Integration",
+      "skills": ["Arduino", "ESP32", "C", "C++", "Sensor & Gyro Integration"]
+    },
+    {
+      "title": "Full-Stack Web",
+      "description": "Modern, Scalable Architectures",
+      "skills": ["React.js", "Node.js", "JavaScript", "TypeScript", "MongoDB", "SQL"]
+    }
+  ],
+  "projects": [
+    {
+      "id": "noorcredit",
+      "category": "Fintech & Web Platforms",
+      "title": "NoorCredit (Sharia-Compliant Micro-Lending)",
+      "description": "AI-powered Sharia-compliant micro-lending platform designed for SMEs.",
+      "contribution": "Focused on Frontend and ML Ops.",
+      "techUsed": ["Figma"],
+      "team": "Clown's Byte",
+      "thumbnail": "assets/NoorCredit (Sharia-Compliant Micro-Lending).png",
+      "details": [
+        "Designed the UI/UX and frontend flows.",
+        "Helped shape ML Ops thinking for model iteration & deployment workflow."
+      ],
+      "tags": ["Fintech", "Sharia", "SME", "AI", "Design"]
+    },
+    {
+      "id": "krishak",
+      "category": "Fintech & Web Platforms",
+      "title": "Krishak (System Analysis & Design)",
+      "description": "A comprehensive platform for farmers, buyers, and transporters to manage crop listings and orders.",
+      "techUsed": ["React.js", "Node.js", "Express.js", "MongoDB", "TailwindCSS"],
+      "thumbnail": "assets/Krishak (System Analysis & Design).png",
+      "features": ["Crop listings", "Order management", "Multi-role flows"],
+      "tags": ["Full-stack", "SAD", "AgriTech"]
+    },
+    {
+      "id": "photographerlagbe",
+      "category": "Fintech & Web Platforms",
+      "title": "PhotographerLagbe",
+      "description": "A service-based platform connecting clients with professional photographers.",
+      "techUsed": ["Web Platform"],
+      "thumbnail": "assets/PhotographerLagbe.png",
+      "features": ["Booking management", "Portfolio showcase", "Role-based dashboards"],
+      "tags": ["Marketplace", "Booking", "Dashboards"]
+    },
+    {
+      "id": "loan-approval",
+      "category": "AI & Game Development",
+      "title": "AI-Powered Loan Approval System",
+      "description": "ML project using Decision Trees, KNN, and Neural Networks to predict loan approval.",
+      "techUsed": ["Machine Learning"],
+      "thumbnail": "assets/AI-Powered Loan Approval System.jpg",
+      "features": ["Model comparison", "Evaluation metrics", "Prediction pipeline"],
+      "tags": ["ML", "Classification"]
+    },
+    {
+      "id": "opengl-game",
+      "category": "AI & Game Development",
+      "title": "Two-Level 3D Game (OpenGL)",
+      "description": "Python + OpenGL 3D game with auto-dodge obstacle course (Level 1) and first/third-person maze boss fight (Level 2).",
+      "techUsed": ["Python", "OpenGL"],
+      "thumbnail": "assets/Two-Level 3D Game (OpenGL).png",
+      "features": ["Auto-dodge obstacles", "Maze boss fight", "Camera modes (1st/3rd person)"],
+      "tags": ["Game Dev", "3D"]
+    },
+    {
+      "id": "gyro-car",
+      "category": "Robotics & Hardware",
+      "title": "Smart Robotic Gyro Control Car",
+      "description": "A car which can move using your head gesture.",
+      "techUsed": ["Robotics", "Hardware"],
+      "thumbnail": "assets/Smart Robotic Gyro Control Car.jpeg",
+      "features": ["Gyro control", "Gesture-based movement"],
+      "tags": ["Robotics", "Sensors"]
+    },
+    {
+      "id": "thesis-agri",
+      "category": "AI & Game Development",
+      "title": "Thesis: Hybrid Deep Learning for Agriculture",
+      "description": "A deep learning model for detecting crop diseases and weeds from drone imagery, promoting sustainable farming.",
+      "techUsed": ["Python", "Deep Learning", "AI", "Agriculture"],
+      "thumbnail": "assets/Thesis image.jpg",
+      "url": "#thesis",
+      "tags": ["Research", "Computer Vision"]
+    }
+  ],
+  "craft": {
+    "technical": ["JavaScript/TypeScript", "Java", "Python", "C", "React.js", "Node.js", "MongoDB"],
+    "creative": ["Video Editing (Adobe Premiere Pro / CapCut Pro)", "Photo Editing (Photoshop)"],
+    "soft": [
+      "Team Leadership (project coordination & team management)",
+      "Public Relations (PR) & Event Management (communication and large-scale event handling)",
+      "Public Speaking (idea presentation & communication ability)"
+    ]
+  },
+  "lifestyle": {
+    "sports": [
+      "Competitive Spirit: BRAC University Table Tennis Runner-up",
+      "Athletics: Basketball and Football player"
+    ],
+    "hobbies": ["The Kitchen Lab: Master of Culinary Arts & Flavors"]
+  },
+  "certificates": [
+    {
+      "title": "Galactic Problem Solver",
+      "issuer": "NASA International Space Apps Challenge",
+      "date": "Oct 2025",
+      "image": "assets/Screenshot 2025-10-28 021749.jpg"
+    },
+    {
+      "title": "AI+ Prompt Engineer Level 1™",
+      "issuer": "AICERTS™",
+      "date": "July 2025",
+      "image": "assets/AI Prompt Engineering Certificate.jpg"
+    },
+    {
+      "title": "Python (Basic) Certificate",
+      "issuer": "HackerRank",
+      "date": "Dec 2024",
+      "image": "assets/Python Basic Certificate.jpg"
+    },
+    {
+      "title": "App Development Certificate",
+      "issuer": "BRAC University (Residential Semester)",
+      "date": "Aug 2023",
+      "image": "assets/BRACU APPS Development certificate .jpg.jpeg"
+    },
+    {
+      "title": "16th Position (Regional)",
+      "issuer": "10th Bangladesh Physics Olympiad",
+      "date": "2020",
+      "image": "assets/Physics Olympiad Certificate .jpg.jpeg"
+    },
+    {
+      "title": "3rd Place (Science Fair)",
+      "issuer": "Cantonment Public School & College, Saidpur",
+      "date": "2019",
+      "image": "assets/Science Fair 3rd place certificate .jpg.jpeg"
+    },
+    {
+      "title": "ICT Quiz Regional Participant",
+      "issuer": "National High School Programming Contest",
+      "date": "2016",
+      "image": "assets/NHSPC participation certificate .jpg.jpeg"
+    }
+  ],
+  "skills": [
+    "Python",
+    "C",
+    "App Development",
+    "AI Prompt Engineering",
+    "Deep Learning",
+    "Problem Solving",
+    "Logical Thinking"
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Computer Science",
+      "institution": "BRAC University",
+      "result": "CGPA 3.2",
+      "timeline": "2022 – Present (Expected Graduation: Jan 2027)"
+    },
+    {
+      "degree": "Higher Secondary School Certificate (HSC)",
+      "institution": "Cantonment Public School and College, Saidpur",
+      "result": "GPA 5.00",
+      "timeline": "2017 – 2019"
+    }
+  ],
+  "contact": {
+    "name": "Nafis Kamal Zisan",
+    "email": "nafis.kamal.zisan@g.bracu.ac.bd",
+    "phone": "01560059447",
+    "location": "Road#11, House#32, DIT Project, Badda, Dhaka",
+    "social": {
+      "facebook": "https://www.facebook.com/nafis.kamal.zisan.2025",
+      "linkedin": "https://www.linkedin.com/in/nafis-kamal-zisan-048558300/",
+      "github": "https://github.com/Nafis5858"
+    }
+  }
+}
