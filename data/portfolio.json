@@ -1,6 +1,6 @@
 {
   "meta": {
-    "name": "Nafis Kamal Zisan",
+    "name": "Arnab",
     "subtitle": "AI Researcher • Problem Solver • Full-Stack Developer • Video Editor • Python Expert",
     "tagline": "I build modern web experiences that help people and businesses thrive.",
     "photo": "assets/profile image new.png"
@@ -55,22 +55,34 @@
       "degree": "B.Sc. Computer Science & Engineering",
       "institution": "BRAC University",
       "period": "2022 — 2026",
-      "description": "Pursuing Bachelor of Science in Computer Science and Engineering. Active in competitions and hackathons."
+      "description": "Undergraduate Studies. Pursuing Bachelor of Science in Computer Science and Engineering. Active in competitions and hackathons."
     },
     {
       "degree": "HSC, Science",
       "institution": "Cantonment Public School & College Saidpur",
       "period": "2019 — 2020",
-      "description": "Higher Secondary Certificate in Science stream."
+      "description": "Higher Secondary Education. Higher Secondary Certificate in Science stream."
     },
     {
       "degree": "SSC, Science",
       "institution": "Cantonment Public School & College Saidpur",
       "period": "2017 — 2018",
-      "description": "Secondary School Certificate in Science stream."
+      "description": "Secondary Education. Secondary School Certificate in Science stream."
     }
   ],
   "projects": [
+    {
+      "id": "electoral-vr",
+      "category": "Interactive Web & VR",
+      "title": "Electoral Process VR Experience",
+      "description": "An interactive virtual environment designed to help users navigate and learn about the electoral process.",
+      "techUsed": ["Three.js", "React", "Tailwind CSS"],
+      "details": [
+        "Navigate a virtual environment to learn about the electoral process.",
+        "The project placed 4th at the competition."
+      ],
+      "tags": ["Three.js", "React", "VR", "Education"]
+    },
     {
       "id": "noorcredit",
       "category": "Fintech & Web Platforms",
