@@ -72,18 +72,6 @@
   ],
   "projects": [
     {
-      "id": "electoral-vr",
-      "category": "Interactive Web & VR",
-      "title": "Electoral Process VR Experience",
-      "description": "An interactive virtual environment designed to help users navigate and learn about the electoral process.",
-      "techUsed": ["Three.js", "React", "Tailwind CSS"],
-      "details": [
-        "Navigate a virtual environment to learn about the electoral process.",
-        "The project placed 4th at the competition."
-      ],
-      "tags": ["Three.js", "React", "VR", "Education"]
-    },
-    {
       "id": "noorcredit",
       "category": "Fintech & Web Platforms",
       "title": "NoorCredit (Sharia-Compliant Micro-Lending)",
