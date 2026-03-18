@@ -66,6 +66,32 @@ function renderAbout(about) {
   qs("#aboutText").textContent = about;
 }
 
+function renderEducation(education) {
+  const container = qs("#educationTimeline");
+  if (!container || !education) return;
+  container.innerHTML = "";
+
+  education.forEach((item, i) => {
+    const eduItem = document.createElement("div");
+    eduItem.className = "education-item";
+    eduItem.setAttribute("data-reveal", "");
+    eduItem.style.transitionDelay = `${i * 150}ms`;
+
+    eduItem.innerHTML = `
+      <div class="education-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+      </div>
+      <div class="education-card">
+        <span class="edu-period">${item.period}</span>
+        <h3 class="edu-degree">${item.degree}</h3>
+        <div class="edu-institution">${item.institution}</div>
+        <p class="edu-desc">${item.description}</p>
+      </div>
+    `;
+    container.append(eduItem);
+  });
+}
+
 function renderStats(stats) {
   const grid = qs("#statsGrid");
   if (!grid || !stats) return;
@@ -848,6 +874,7 @@ async function init() {
 
     renderHero(data.meta);
     renderAbout(data.about);
+    renderEducation(data.education);
     renderStats(data.stats);
     renderProjects(data.projects);
     renderCertificates(data.certificates || []);

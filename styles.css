@@ -500,6 +500,103 @@ body.js [data-reveal].visible {
   font-size: 2rem;
 }
 
+.section-kicker {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.section-title {
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  font-weight: 800;
+  margin-bottom: 3rem;
+  letter-spacing: -0.02em;
+}
+
+/* Education Timeline */
+.education-timeline {
+  position: relative;
+  max-width: 800px;
+  margin-left: 2rem;
+  padding-left: 3rem;
+  border-left: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.education-item {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.education-item:last-child {
+  margin-bottom: 0;
+}
+
+.education-icon {
+  position: absolute;
+  left: calc(-3rem - 21px);
+  top: 0;
+  width: 42px;
+  height: 42px;
+  background: var(--surface);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  color: var(--primary);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.education-card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 1.75rem;
+  transition: transform 0.3s ease, background 0.3s ease, border-color 0.3s ease;
+  position: relative;
+}
+
+.education-card:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(79, 156, 249, 0.3);
+  transform: translateX(10px);
+}
+
+.edu-period {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+
+.edu-degree {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin: 0 0 0.25rem;
+  color: #fff;
+}
+
+.edu-institution {
+  font-size: 1.05rem;
+  color: var(--muted);
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.edu-desc {
+  font-size: 0.95rem;
+  color: rgba(230, 241, 255, 0.7);
+  line-height: 1.6;
+}
+
 .section-lead {
   margin: 0.25rem 0 0;
   color: rgba(230, 241, 255, 0.72);
