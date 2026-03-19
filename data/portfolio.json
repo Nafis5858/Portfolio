@@ -52,21 +52,23 @@
   ],
   "education": [
     {
-      "degree": "B.Sc. Computer Science & Engineering",
+      "degree": "B.Sc. Computer Science",
       "institution": "BRAC University",
-      "period": "2022 — 2026",
-      "description": "Undergraduate Studies. Pursuing Bachelor of Science in Computer Science and Engineering. Active in competitions and hackathons."
+      "period": "2022 — Present",
+      "description": "Undergraduate Studies. Pursuing Bachelor of Science in Computer Science. Active in competitions and hackathons."
     },
     {
       "degree": "HSC, Science",
       "institution": "Cantonment Public School & College Saidpur",
       "period": "2019 — 2020",
+      "result": "GPA: 5.00/5.00",
       "description": "Higher Secondary Education. Higher Secondary Certificate in Science stream."
     },
     {
       "degree": "SSC, Science",
       "institution": "Cantonment Public School & College Saidpur",
       "period": "2017 — 2018",
+      "result": "GPA: 5.00/5.00",
       "description": "Secondary Education. Secondary School Certificate in Science stream."
     }
   ],

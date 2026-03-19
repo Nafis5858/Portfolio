@@ -591,6 +591,14 @@ body.js [data-reveal].visible {
   font-weight: 500;
 }
 
+.edu-result {
+  font-size: 0.95rem;
+  color: rgba(230, 241, 255, 0.78);
+  font-weight: 600;
+  margin-top: -0.35rem;
+  margin-bottom: 0.75rem;
+}
+
 .edu-desc {
   font-size: 0.95rem;
   color: rgba(230, 241, 255, 0.7);

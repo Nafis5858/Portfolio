@@ -72,6 +72,12 @@ function renderEducation(education) {
   container.innerHTML = "";
 
   education.forEach((item, i) => {
+    const period = item?.period ?? "";
+    const degree = item?.degree ?? "";
+    const institution = item?.institution ?? "";
+    const description = item?.description ?? "";
+    const resultHtml = item?.result ? `<div class="edu-result">${item.result}</div>` : "";
+
     const eduItem = document.createElement("div");
     eduItem.className = "education-item";
     eduItem.setAttribute("data-reveal", "");
@@ -82,10 +88,11 @@ function renderEducation(education) {
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
       </div>
       <div class="education-card">
-        <span class="edu-period">${item.period}</span>
-        <h3 class="edu-degree">${item.degree}</h3>
-        <div class="edu-institution">${item.institution}</div>
-        <p class="edu-desc">${item.description}</p>
+        <span class="edu-period">${period}</span>
+        <h3 class="edu-degree">${degree}</h3>
+        <div class="edu-institution">${institution}</div>
+        ${resultHtml}
+        <p class="edu-desc">${description}</p>
       </div>
     `;
     container.append(eduItem);
