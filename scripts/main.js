@@ -28,11 +28,14 @@ async function typeWriter(el, text, delay = 60) {
 
 async function renderHero(meta) {
   const photo = qs("#heroPhoto");
+  const headerPhoto = qs("#headerPhoto");
   if (meta.photo) {
     // Cache-bust to ensure the latest uploaded image loads
     photo.src = `${meta.photo}?v=${Date.now()}`;
+    if (headerPhoto) headerPhoto.src = `${meta.photo}?v=${Date.now()}`;
   }
   photo.alt = `${meta.name} — Profile photo`;
+  if (headerPhoto) headerPhoto.alt = `${meta.name} — Profile photo`;
 
   const typing = qs("#heroTyping");
   const greeting = "Hi,";

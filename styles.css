@@ -109,8 +109,25 @@ a:hover {
 }
 
 .brand {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
   font-weight: 700;
   letter-spacing: -0.02em;
+}
+
+.brand-avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  object-fit: cover;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  flex: 0 0 auto;
+}
+
+.brand-text {
+  line-height: 1;
 }
 
 .hamburger {
