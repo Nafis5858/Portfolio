@@ -117,13 +117,15 @@ a:hover {
 }
 
 .brand-avatar {
-  width: 34px;
-  height: 34px;
+  width: 44px;
+  height: 44px;
   border-radius: 999px;
   object-fit: cover;
+  object-position: center 20%;
   border: 1px solid rgba(255, 255, 255, 0.14);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
   flex: 0 0 auto;
+  transform: scale(1.08);
 }
 
 .brand-text {
